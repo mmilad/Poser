@@ -1,0 +1,14 @@
+{
+  "scene": {"environment": "ruined_city", "time": "night"},
+  "camera": {"yaw": -10, "pitch": 4, "distance": 2.5},
+  "characters": [
+    {
+      "id": "kairo",
+      "pose": "attack_02",
+      "expression": "serious",
+      "equipment": {"weapon_r": "dagger_shadowfang", "back": "mantle_black"},
+      "position": {"x": 0, "y": 0, "z": 0}
+    }
+  ],
+  "render": {"seed": 1234, "width": 768, "height": 1024, "steps": 24, "cfg_scale": 6.5, "sampler": "dpmpp_2m"}
+}
