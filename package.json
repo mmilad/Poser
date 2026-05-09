@@ -1,0 +1,12 @@
+{
+  "name": "poser-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @poser/pose-api run dev",
+    "build:web": "npm --workspace @poser/pose-api run build",
+    "test:web": "npm --workspace @poser/pose-api run test"
+  }
+}
