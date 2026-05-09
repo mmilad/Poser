@@ -1,0 +1,1 @@
+{"meta":{"version":1,"kind":"poser-minimal"},"nodes":[{"id":"sampler","type":"KSampler","seed":1234,"steps":24,"cfg":6.5,"sampler":"dpmpp_2m"},{"id":"size","type":"EmptyLatentImage","width":768,"height":1024},{"id":"pose","type":"LoadImage","path":"assets/characters/kairo/poses/attack_02.png"},{"id":"identity","type":"LoadImage","path":"assets/characters/kairo/refs/main.png"}]}
